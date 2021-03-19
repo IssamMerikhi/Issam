@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "New app",
+  "main": "GLTFLoader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IssamMerikhi/Issam.git"
+  },
+  "author": "Issam Merikhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IssamMerikhi/Issam/issues"
+  },
+  "homepage": "https://github.com/IssamMerikhi/Issam#readme"
+}
