@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>issam.exe</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        canvas{
-            display: block;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
+    <!--<div>
     <script src="three.js"></script>
     <script type="module" src="GLTFLoader.js"></script>
-    <script type="module">
+    <script type="module" id="bot">
 
         import {GLTFLoader} from "./GLTFLoader.js";
 
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(
-            75,
+            80,
             window.innerWidth/ window.innerHeight,
             0.01,
             1000
         );
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
 
+        camera.position.z = 30;
+        camera.position.x = 0;
+        camera.position.y = -3;
+
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth-50, window.innerHeight-200);
+        document.body.appendChild(renderer.domElement);
+        
 
         var loader = new GLTFLoader();
 
@@ -51,10 +53,23 @@
             renderer.render(scene,camera);
         }
 
-        
-
         animate();
+
+
+
     </script>
+    </div>-->
+
+
+    <div class="heading">
+
+        <h3></h3>
+        <p>I am currently studying <b> Data <br> Science at University of Strasbourg</b> , with a focus in Artificial <br> Intelligence. I am also currently on a six months internship at <br> BETA as a <b> Junior Statistician</b>. <br> <br>
+            I'm into <b>machine learning, human-computer interactions</b> and <br> <b> frontend development</b>. I also like my fair share of visual arts <br> and creativity. In my free time, I eat guava fruit and play <br> video games.</p>
+    </div>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>
