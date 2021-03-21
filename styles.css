@@ -16,6 +16,35 @@ body {
 }
 
 
+section{
+    min-height: 550px;
+    position: relative;
+}
+
+
+.heading1{
+    margin-left: 10%;
+    display: flex;
+}
+
+
+
+.heading1 p
+{
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+.heading1 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    align-items: center;
+}
+
 
 
 
@@ -25,6 +54,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
     
 }
 
