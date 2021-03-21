@@ -85,14 +85,13 @@ section h2{
     position: relative;
     width: 900px;
     height: 300px;
-    margin: 240px auto;
 }
 
 .container .box{
     position: relative;
     width: calc(300px - 30px);
     height: calc(300px - 30px);
-    background: #ff0;
+    background: #000;
     float: left;
     margin: 15px;
     box-sizing: border-box;
@@ -114,7 +113,7 @@ section h2{
 
 .container .box:hover .icon{
 
-    top: 33%;
+    top: 5%;
     left: 33%;
     width: 100px;
     height: 80px;
@@ -135,4 +134,52 @@ section h2{
 
 .container .box:hover .icon .fa{
     font-size: 40px ;
+}
+
+
+.container .box .content{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .box:hover .content{
+    top: 80px;
+    opacity: 1;
+}
+
+
+
+.container .box .content h3{
+
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+
+}
+
+.container .box .content p{
+
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1;
+    
+}
+
+
+.container .box:nth-child(1) .icon{
+    background: #878f99;
+}
+
+.container .box:nth-child(1){
+    background: #a2b9bc;
 }
