@@ -1,25 +1,53 @@
-
-
 html{
-    font-family: "Poppins",sans-serif;
+    font-family: 'NTR', sans-serif;
+    height: 500px;
+    width: 960px;
+    margin: 0px;
 }
 
 
 
 body {
     min-height: 100vh;
+    width: 960px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
 
 }
-
+.body-particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #262626;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
 
 section{
     min-height: 550px;
     position: relative;
 }
+
+
+
+
+
+h2, p{
+    color: white;
+}
+
+
+
+
 
 
 .heading1{
@@ -35,7 +63,6 @@ section{
     bottom: 1px;
     text-align: center;
     padding: 20px;
-    padding-top: 90px;
 }
 
 .heading1 img{
@@ -64,9 +91,9 @@ section{
     width: 220px;
     margin: 20px;
     padding: 40px 30px;
-    background: #ebf5fc;
+    background: white;
     border-radius: 40px;
-    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    box-shadow: -6px -6px 20px rgb(255, 255, 255, 0.2),
                 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -94,7 +121,7 @@ section{
 
 
 .container .card .contentBx h2{
-    color: #32a3b1;
+    color: #262626;
     font-weight: 700;
     font-size: 1.4em;
     letter-spacing: 2px;
@@ -102,7 +129,7 @@ section{
 
 
 .container .card .contentBx p{
-    color: #32a3b1;
+    color: #262626;
 
 }
 
@@ -111,7 +138,7 @@ section{
     padding: 10px 20px;
     margin-top: 15px;
     border-radius: 40px;
-    color: #32a3b1;
+    color: #262626;
     font-size: 16px;
     text-decoration: none;
     box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
@@ -133,4 +160,14 @@ section{
 .container .card:hover .imgBx,
 .container .card:hover .contentBx{
     transform: scale(0.98);
+}
+
+.panda{
+    height: 70px;
+    width: 70px;
+}
+
+.graphique{
+    height: 65px;
+    width: 65px;
 }
