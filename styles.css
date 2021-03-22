@@ -3,6 +3,7 @@ html{
     height: 500px;
     width: 960px;
     margin: 0px;
+    right: 0;
 }
 
 
@@ -51,7 +52,7 @@ h2, p{
 
 
 .heading1{
-    margin-left: 10%;
+    margin-left: 20%;
     display: flex;
 }
 
@@ -76,11 +77,14 @@ h2, p{
 
 
 .container{
+    
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
@@ -170,4 +174,25 @@ h2, p{
 .graphique{
     height: 65px;
     width: 65px;
+}
+
+
+.subtitle{
+    margin-left: 200px;
+}
+
+
+.accroche, .accroche2{
+    color: white;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.accroche{
+
+    font-size: 3rem;
+}
+
+.accroche2{
+    font-size: 1rem;
 }
