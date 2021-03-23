@@ -1,242 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
- 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>issam.exe</title>
+    <title>test threejs</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+
 </head>
-
-
 <body>
 
-    <div class="body-particles">
+
+
+
+
+    <div class="body-robot">
+    <div id="rob"></div>
+    <script src="three.js"></script>
+    <script type ="module" src="GLTFLoader.js"></script>
+    <script type ="module" src="OrbitControls.js"></script>
+
+    <script type="module" src="robot.js"></script> 
+
+    </div>  
+
+
+<div class="body-particles">
     <div id="particles-js"></div>
     <script type="text/javascript" src="particles.js"></script>    
     <script type="text/javascript" src="app.js"></script>
+</div>
 
 
-
-    <main>
-        <section data-index="0" class="home">
-            
-            <h2 class = "subtitle">/home</h2>
-            <h3></h3>
-            <div>
-                <h1 class="accroche">I create stuff sometimes.</h1> 
-                <p class="accroche2">I'm a software engineer and artist based in Toronto. <br>
-                    I have profound interest in machine learning, human-computer interactions, <br>
-                    frontend development, and everything in between.</p> 
-            </div>
-
-
-        </section>
-
-
-        <section data-index="1" class="about">
-            <h2 class = "subtitle">/about</h2>
-
-            <div class="heading1">
-
-                <p>I am currently studying <b> Data <br> Science at University of Strasbourg</b> , with a focus in Artificial <br> Intelligence. I am also currently on a six months internship at <br> BETA as a <b> Junior Statistician</b>. <br> <br>
-                    I'm into <b>machine learning, human-computer interactions</b> and <br> <b> frontend development</b>. I also like my fair share of visual arts <br> and creativity. In my free time, I eat guava fruit and play <br> video games.</p>
-                <!--<img src="./image/Issam.jpg" alt="">-->
-
-                </div>
-        
-            <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-            <script src="app2.js"></script>
-        </section>
-
-        <section data-index="2" class="creation">
-
-            <div>
-                <h2 class = "subtitle">/creation</h2>
-            <div class="heading2">
-
-
-            <div class="container">
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="./image/graphique.png" class="graphique" alt="">
-                    </div>
-                    <div class="contentBx">
-                        <h2 class="cardtitle">Maths 78</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <a href="http://maths78.herokuapp.com/"> <span>Read More</span> </a>
-                    </div>
-                </div>
-
-
-
-                <div class="container">
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="./image/network.png" alt="">
-                        </div>
-                        <div class="contentBx">
-                            <h2 class = "cardtitle">PibeOro A.I</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <a href="https://github.com/IssamMerikhi/PFG"> <span>Read More</span> </a>
-                        </div>
-                    </div>
-
-
-
-
-
-
-                    <div class="container">
-                        <div class="card">
-                            <div class="imgBx">
-                                <img src="./image/changement-climatique.png" class="panda" alt="">
-                            </div>
-                            <div class="contentBx">
-                                <h2 class = "cardtitle">Climate Change</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <a href="https://world-climate-change.herokuapp.com"> <span>Read More</span> </a>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-        
-
-
-
-
-        </section>
-
-        <!--<section data-index="3" class="contact">
-            <h2>/contact</h2>
-
-        <div class="contactcontent">
-            <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua.
-            </p>
-        </div>
-        <div class="contactcontainer">
-            <div class="contactInfo">
-                <div class="box">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </div>
-                    <div class="text">
-                        <h3>Address</h3>
-                        <p>1, Avenue de la Forêt Noire,
-                            <br> University of Strasbourg</p>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
-                </div>
-                <div class="text">
-                    <h3>Phone</h3>
-                    <p>00 33 6 17 28 58 23 </p>
-                </div>
-            </div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </div>
-                <div class="text">
-                    <h3>Email</h3>
-                    <p>issam.merikhi@etu.unistra.fr</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        </section>-->
-    </main>
-
-
-
-
-
-    <!--<div>
-    <script src="three.js"></script>
-    <script type="module" src="GLTFLoader.js"></script>
-    <script type="module" id="bot">
-
-        import {GLTFLoader} from "./GLTFLoader.js";
-
-        var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(
-            80,
-            window.innerWidth/ window.innerHeight,
-            0.01,
-            1000
-        );
-
-        camera.position.z = 30;
-        camera.position.x = 0;
-        camera.position.y = -3;
-
-
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth-50, window.innerHeight-200);
-        document.body.appendChild(renderer.domElement);
-        
-
-        var loader = new GLTFLoader();
-
-        var obj;
-        loader.load("scene.gltf", function(gltf){
-            obj = gltf.scene;
-            scene.add(gltf.scene);
-        });
-        scene.background = new THREE.Color(0xFFFFFF)
-
-        var light = new THREE.HemisphereLight(0xffffff, 0x000000, 2.5);
-        scene.add(light);
-
-        camera.position.set(-50,100,300);
-        function animate(){
-            requestAnimationFrame(animate);
-            //obj.rotation.y += 0.01;
-            renderer.render(scene,camera);
-        }
-
-        animate();
-
-
-
-    </script>
-    </div>
-
-
-
-
+    
 </body>
 </html>
