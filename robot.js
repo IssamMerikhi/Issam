@@ -46,6 +46,7 @@ function init() {
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.domElement.style.position = 'absolute';
     renderer.domElement.style.left = '42%';
+    renderer.domElement.style.top = '-100px';
 
 
 	renderer.setSize( window.innerWidth, window.innerHeight );
