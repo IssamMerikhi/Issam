@@ -19,7 +19,7 @@ function init() {
         window.innerWidth/window.innerHeight,
         0.01,
         1000 );
-    camera.position.set( 0, 3,6 );
+    camera.position.set( 0, 20, 50 );
 	scene = new THREE.Scene();
 
 	clock = new THREE.Clock();
@@ -46,7 +46,7 @@ function init() {
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.domElement.style.position = 'absolute';
     renderer.domElement.style.left = '42%';
-    renderer.domElement.style.top = '-100px';
+    renderer.domElement.style.top = '-13px';
 
 
 	renderer.setSize( window.innerWidth, window.innerHeight );
@@ -85,3 +85,4 @@ function animate() {
 	renderer.render( scene, camera );
 
 }
+
