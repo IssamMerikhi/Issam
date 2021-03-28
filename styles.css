@@ -287,6 +287,41 @@ body canvas{
   list-style: none;
 }
 
+.navbar-logos {
+  position: fixed;
+  display: inline-block;
+  flex-direction: column;
+  z-index: 1;
+  color: #00acee;
+  top: 100px;
+
+}
+
+.nav-logos{
+  list-style: none;
+  display: inline-block;
+}
+
+
+.li-logo1{
+  display: inline-block;
+
+}
+
+.li-logo2{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+
+.li-logo3{
+  display: inline-block;
+
+}
+
+
 a{
   color: #00acee;
   text-decoration: none;
