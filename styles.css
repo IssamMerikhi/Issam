@@ -41,11 +41,14 @@ body {
   color: white;
   height: 100vh;
   font-size: 30px;
+  transition: 40s;
+
 
 }
 
 .subtitlec{
   margin-left: 4rem;
+
 }
 
 .subtitlec .lines {
