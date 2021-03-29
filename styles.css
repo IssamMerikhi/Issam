@@ -31,6 +31,8 @@ body {
   margin-left: 10rem;
   height: 100vh;
   color: white;
+  font-size: 30px;
+
 }
 
 
@@ -38,6 +40,8 @@ body {
   margin-left: 4rem;
   color: white;
   height: 100vh;
+  font-size: 30px;
+
 }
 
 .subtitlec{
@@ -50,7 +54,7 @@ body {
   position: relative;
   height: 2px;
   width: 300px;
-  background: #fff;
+  background: #989898;
   top: -2px;
   right: -10px;
 }
@@ -65,7 +69,7 @@ body {
   position: relative;
   height: 2px;
   width: 300px;
-  background: #fff;
+  background: #989898;
   top: -2px;
   right: -10px;
 }
@@ -87,9 +91,9 @@ body canvas{
 }
 
 .cards{
+
   margin-left: 10%;
 }
-
 
 
 
@@ -139,6 +143,7 @@ body canvas{
   position: relative;
   margin-top: 20px;
   text-align: center;
+  font-size: initial;
 }
 
 
@@ -147,6 +152,8 @@ body canvas{
   font-weight: 700;
   font-size: 1.4em;
   letter-spacing: 2px;
+  font-size: initial;
+
 }
 
 
@@ -224,7 +231,7 @@ body canvas{
   line-height:50px;
   font-size:16px;
   font-weight:600;
-  color:#888;
+  color:white;
   cursor:pointer;
   padding-left:10px;
 }
@@ -241,6 +248,8 @@ body canvas{
   position:relative;
   height:100%;
   overflow:hidden;
+  font-size: initial;
+
 }
 .tabs .tab-content > div > i {
   display:inline-block;
