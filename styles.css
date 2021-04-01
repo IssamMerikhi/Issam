@@ -41,7 +41,6 @@ body {
   color: white;
   height: 100vh;
   font-size: 30px;
-  transition: 40s;
 
 
 }
@@ -356,18 +355,73 @@ a:hover{
 }
 
 .accroche2{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .hi{
   font-weight: 100;
   font-size: 5rem;
   margin: 0;
+  display: inline-block;
 }
+
+
 
 .textanim{
   position: absolute;
   z-index: 200;
-  top: 9%;
+  top: 6%;
   font-size: 2rem;
   display: inline-block;
+}
+
+
+.form{
+  display: inline-block;
+  margin-left: 100px;
+}
+
+
+
+.mail{
+  color: #00acee;
+  position: absolute;
+  z-index: 100000000000;
+  padding: 25px 50px;
+  border-radius: 30px;
+  border: 1px solid #00acee;
+  background: none;
+  font-size: 1.5rem;
+}
+
+.mail:hover{
+  color: #555;
+  background-color: white;
+  border: 1px solid #555;
+
+}
+
+
+
+.taf {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+}
+.taf::before { 
+  content: "";
+  border-color: transparent #00acee;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 1.3em;
+  position: relative;
+}
+
+
+.foot-text{
+  margin-top: 100px;
+  text-align: center;
 }

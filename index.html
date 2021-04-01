@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>issam.exe</title>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+
+    <title>Issam</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,9 +52,9 @@
 
         <div class="navbar-logos">
             <ul class="nav-logos">
-                <li class="li-logo1"><a target="_blank" rel="noopener noreferrer" href="https://github.com/issamMerikhi/"><i class="fa fa-envelope"></i></a></li>
+                <li class="li-logo1"><a target="_blank" rel="noopener noreferrer" href="mailto:issammerikhi@outlook.fr/"><i class="fa fa-envelope"></i></a></li>
                 <li class="li-logo2"><a target="_blank" rel="noopener noreferrer" href="https://github.com/issamMerikhi/"><i class="fa fa-github"></i></a></li>
-                <li class="li-logo3"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/issam-merikhi-064463138/"><i class="fa fa-linkedin-square"></i></a></li>
+                <li class="li-logo3"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/issam-merikhi/"><i class="fa fa-linkedin-square"></i></a></li>
             </ul>
         </div>
     </div>
@@ -61,11 +63,15 @@
     <section class="home" id="home1">
         <h2 class = "subtitle"></h2> 
 
- 
-        <h1 class="hi">hi, <b>Issam</b> here.</h1><br><span class="textanim" id="typed"></span>
-        
+        <div class="introduction">
+        <h1 class="hi">hi, <b>Issam</b> here.</h1><div id="open" class="form">  <a class="mail" target="_blank" rel="noopener noreferrer" href="mailto:issammerikhi@outlook.fr"><i class="fa fa-envelope"></i>  SAY HI</a></div>
+
+        <br><span class="textanim" id="typed"></span>
+        </div>
+
+
         <div id="h">
-        <h1 id="a1" class="accroche">I create stuff sometimes.</h1> 
+        <h1 id="a1" class="accroche"> <br> I create stuff sometimes.</h1> 
         <p id="a2" class="accroche2">I'm a data scientist based in Strasbourg. <br>
             I have profound interest in machine learning, human-computer interactions, <br>
             frontend development, and everything in between.</p> 
@@ -83,27 +89,63 @@
         <div id="t" class="tabs">
             <div class="tab-header">
               <div class="active">
-                <i class="fa fa-angle-right"></i> BETA
+                <i class="fa fa-angle-right"></i> <span style="font-family: Poppins;">BETA</span>
               </div>
               <div>
-                <i class="fa fa-angle-right"></i> Goulden
+                <i class="fa fa-angle-right"></i> <span style="font-family: Poppins;">Goulden</span>
               </div>
-
+              <div>
+                <i class="fa fa-angle-right"></i> <span style="font-family: Poppins;">KIT</span>
+              </div>
+              <div>
+                <i class="fa fa-angle-right"></i> <span style="font-family: Poppins;">Globale</span>
+              </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-content">
               
               <div class="active">
-                <h2>Associate Researcher @ <span style="color: #00acee;">BETA</span></h2>
+                <h2> <span style="font-family: Poppins, sans-serif; font-size: 1rem;">Associate Researcher @ </span>  <span style="color: #00acee;">BETA</span></h2>
                 <h3><span style="font-family: Poppins, sans-serif; font-weight: 20;">APR 2021 - SEP 2021</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-              </div>
+                <li class="taf">I worked on time series and try to explain the relation between business opening and
+                    growth with a focused on the Granger causality. I used the FRED dataset. Work have been done with Python
+                    and R.
+                </li>
+            </div>
               
               <div>
-                <h2>Mathematics Teacher @ <span style="color: #00acee;">Goulden</span></h2>
+                <h2><span style="font-family: Poppins, sans-serif; font-size: 1rem;">Mathematics Teacher @ </span> <span style="color: #00acee;">Goulden</span></h2>
                 <h3><span style="font-family: Poppins, sans-serif; font-weight: 20;">SEP 2020 - JUN 2021</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-              </div>
+                <li class="taf">Mathematics class from first to last grade.
+                    Creating content with respect to professional school subjects.</li>
+                <li class="taf">Following students in their internship. Along the year, I also participate to 
+                    multiple management seminars.
+                </li>
+
+            </div>
+
+            <div>
+                <h2><span style="font-family: Poppins, sans-serif; font-size: 1rem;">International Collaborator @ </span> <span style="color: #00acee;">KIT</span></h2>
+                <h3><span style="font-family: Poppins, sans-serif; font-weight: 20;">SEP 2020 - JAN 2021</span></h3>
+                <li class="taf">Co-developed a dashboard with our german border-line colleagues.
+                    The dataset has been scrapped from multiple sources and cleaned using R.
+                </li>
+                <li class="taf">The dashboard is tackling environmental issues around the globe.
+                    Several topics are discussed accros the whole application.
+                    The dashboard has been created using Plotly and Dash framework and is hosted with Heroku.
+                </li>
+
+            </div>
+
+            <div>
+                <h2><span style="font-family: Poppins, sans-serif; font-size: 1rem;">Director Assistant @ </span> <span style="color: #00acee;">Globale</span></h2>
+                <h3><span style="font-family: Poppins, sans-serif; font-weight: 20;">JAN 2018 - MAR 2018</span></h3>
+                <li class="taf">Promote access to culture in Prôvidencia and Fuba across several activites.
+                </li>
+                <li class="taf">Create links with others foreign associations and ONG such as Casa Amarela or ONG Terr'Ativa
+                </li>
+
+            </div>
               
               
             </div>
@@ -126,8 +168,8 @@
                 <div class="contentBx">
                     <h2 class = "cardtitle">PibeOro A.I</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        An application create to bet on football games with Python.
+                        The application implements advanced supervised and deep learning concepts.
                     </p>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/IssamMerikhi/PFG"> <span>Read More</span> </a>
                 </div>
@@ -143,8 +185,8 @@
                 <div class="contentBx">
                     <h2 class="cardtitle">Maths 78</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        A plotly and dash application thats help lazy maths teacher to find exercises.
+                        Also helpful for the students to understand visually math bases.
                     </p>
                     <a target="_blank" rel="noopener noreferrer" href="http://maths78.herokuapp.com/"> <span>Read More</span> </a>
                 </div>
@@ -165,8 +207,9 @@
                 <div class="contentBx">
                     <h2 class = "cardtitle">Climate Change</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Dashboard to understand the gravity of the global climate situation.
+                        Graphics are interactives and have been built with plotly and dash framework.
+
                     </p>
                     <a target="_blank" rel="noopener noreferrer" href="https://world-climate-change.herokuapp.com"> <span>Read More</span> </a>
                 </div>
@@ -179,6 +222,16 @@
 
     </section>
 
+
+    <section class="footr" id="footr1">
+
+
+
+    <div class="foot">
+        <p class="foot-text"> Built and designed by Issam Merikhi. <br>
+            All rights reserved. © </p>
+    </div>
+</section>
     
 </body>
 </html>
