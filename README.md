@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=favicon.png"/>
+  <img src ="image/favicon.png" width = "auto" height = "auto">
 </p>
 <h1 align="center">
   issammerikhi - v1
